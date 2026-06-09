@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP32USBI2S.kicad_pro",
+    "filename": "ESP32USBITS-BARE.kicad_pro",
     "version": 3
   },
   "net_settings": {

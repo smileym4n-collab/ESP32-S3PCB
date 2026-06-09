@@ -2891,6 +2891,12 @@
 		(uuid "3bf10a8c-1d48-455c-a717-08cc5b871977")
 	)
 	(junction
+		(at 69.85 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cbb0fd0-f83a-4410-9e43-b922a80a0944")
+	)
+	(junction
 		(at 265.43 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3334,7 +3340,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 45.72) (xy 72.39 45.72)
+			(xy 67.31 45.72) (xy 69.85 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3351,6 +3357,16 @@
 			(type default)
 		)
 		(uuid "4ce19161-2ae3-44fa-b570-06b941b7b522")
+	)
+	(wire
+		(pts
+			(xy 69.85 45.72) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50392d0f-98b6-4d9c-8051-44f512c55039")
 	)
 	(wire
 		(pts
@@ -3421,6 +3437,16 @@
 			(type default)
 		)
 		(uuid "630127db-ee40-4f94-b39d-8713f65e7b90")
+	)
+	(wire
+		(pts
+			(xy 69.85 31.75) (xy 69.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6404a93c-96de-4f29-bceb-6e07ae882927")
 	)
 	(wire
 		(pts
@@ -3594,6 +3620,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 127) (xy 168.91 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e96ba85-d63e-4bf5-b394-985029b64693")
+	)
+	(wire
+		(pts
 			(xy 82.55 129.54) (xy 82.55 142.24)
 		)
 		(stroke
@@ -3611,6 +3647,16 @@
 			(type default)
 		)
 		(uuid "9ffa11f1-883f-4813-b8dc-1cc9dafc2ce9")
+	)
+	(wire
+		(pts
+			(xy 218.44 62.23) (xy 223.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a962fc-1426-4295-b548-12d3010084d0")
 	)
 	(wire
 		(pts
@@ -3694,7 +3740,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 62.23) (xy 223.52 62.23)
+			(xy 208.28 62.23) (xy 210.82 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3821,6 +3867,16 @@
 			(type default)
 		)
 		(uuid "c6c8e070-692c-4ac3-9bc9-f0bba74c2390")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 69.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7988d57-32a1-4cb3-824c-4165bbf0e6dc")
 	)
 	(wire
 		(pts
@@ -3984,6 +4040,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 27.94) (xy 76.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef791f50-ccab-4198-a6c2-469ff1923c2b")
+	)
+	(wire
+		(pts
 			(xy 30.48 130.81) (xy 30.48 143.51)
 		)
 		(stroke
@@ -4092,6 +4158,16 @@
 		)
 		(uuid "ffad9cbe-c542-4519-8a7c-1388e426b62a")
 	)
+	(label "3V3ESP"
+		(at 76.2 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00c1f734-5881-4dc4-9c50-c2c7ce925bf6")
+	)
 	(label "3V3"
 		(at 208.28 62.23 180)
 		(effects
@@ -4151,6 +4227,16 @@
 			(justify left bottom)
 		)
 		(uuid "69bd5df4-e48d-4e9f-bd3a-a504b9729f55")
+	)
+	(label "3V3ESP"
+		(at 168.91 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6afbbda1-d2cc-4ae0-a74e-69e66a52526e")
 	)
 	(label "22.5792"
 		(at 209.55 116.84 180)
@@ -4283,7 +4369,7 @@
 		(uuid "c3b2156c-997a-46aa-84b5-50674caf7727")
 	)
 	(label "3V3"
-		(at 72.39 45.72 0)
+		(at 77.47 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4416,7 +4502,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A"
+		(property "Value" "TPS7A2033*"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -4809,7 +4895,7 @@
 				)
 			)
 		)
-		(property "Value" "0R68"
+		(property "Value" "0R68*"
 			(at 113.03 39.37 90)
 			(effects
 				(font
@@ -5071,6 +5157,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 69.85 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a8d5d57-fa00-43fd-a451-22591dc8c4f5")
+		(property "Reference" "R1"
+			(at 72.39 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R*"
+			(at 72.39 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 68.072 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e282727-4d5a-438f-92e7-918f132da7a4")
+		)
+		(pin "2"
+			(uuid "dc35a79d-8eaf-41d0-9c0e-91fbf052324c")
+		)
+		(instances
+			(project ""
+				(path "/4e8ba15a-9575-47ae-b6a2-ab0ac9268e83"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 87.63 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5134,6 +5290,73 @@
 			(project "ESP32USBI2S"
 				(path "/4e8ba15a-9575-47ae-b6a2-ab0ac9268e83"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f92792a-8d6d-4688-a08b-6db966c4e948")
+		(property "Reference" "R11"
+			(at 210.566 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 214.63 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 214.63 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f84bb06a-5ead-4997-a3e6-da2aa6bedf06")
+		)
+		(pin "1"
+			(uuid "4281a19c-8e59-4044-aae5-39d07bca81ba")
+		)
+		(instances
+			(project "ESP32USBI2S"
+				(path "/4e8ba15a-9575-47ae-b6a2-ab0ac9268e83"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5424,7 +5647,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "220uF*"
 			(at 124.46 47.3709 0)
 			(effects
 				(font
@@ -5696,7 +5919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF*"
 			(at 107.95 48.2599 0)
 			(effects
 				(font
@@ -6774,7 +6997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF*"
 			(at 133.35 48.2599 0)
 			(effects
 				(font
@@ -7042,7 +7265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF*"
 			(at 146.05 48.2599 0)
 			(effects
 				(font
@@ -7376,7 +7599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF*"
 			(at 66.04 50.7999 0)
 			(effects
 				(font
@@ -7512,7 +7735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF*"
 			(at 50.8 25.3999 0)
 			(effects
 				(font
@@ -8154,7 +8377,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "220uF*"
 			(at 96.52 47.3709 0)
 			(effects
 				(font
