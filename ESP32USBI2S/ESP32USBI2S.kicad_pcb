@@ -5797,7 +5797,7 @@
 			(uuid "c0a65469-5675-4d8f-a7b5-d44d6b3d5093")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.wrl"
+		(model "/Users/tomwatson/Downloads/LIB_ASE-24.000MHZ-L-C-T/ASE-24.000MHZ-L-C-T/3D/ASE-24.000MHZ-L-C-T.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9500,7 +9500,7 @@
 			(uuid "7e63c58f-d09c-4807-84b8-74af80e0de41")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.wrl"
+		(model "/Users/tomwatson/Downloads/LIB_ASE-24.000MHZ-L-C-T/ASE-24.000MHZ-L-C-T/3D/ASE-24.000MHZ-L-C-T.stp"
 			(offset
 				(xyz 0 0 0)
 			)
